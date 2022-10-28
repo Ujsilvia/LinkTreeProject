@@ -26,10 +26,14 @@ export const ProfileTextStyle = styled.div`
         font-weight: 700;
         font-size: 20px;
         line-height: 30px;
-
         text-align: center;
 
         /* Gray/900 */
 
         color: #101828;
+`
+
+export const SlackStyle = styled.p`
+display: inline;
+
 `
