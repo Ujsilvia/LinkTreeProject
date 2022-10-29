@@ -6,7 +6,7 @@ function Links() {
     const links = [
     {name: "Twitter Link",
       url: "https://twitter.com/Uj_silvia",
-      id: "twitter-link"
+      id: "twitter"
     },
     {
       name: "Zuri Team",

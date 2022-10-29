@@ -14,7 +14,7 @@ function Profile() {
         <img src={web} alt="web" id='web' />
         </ButtonStyle>
         <img src={uju} alt="myPics" id='profile__img' />
-        <ProfileTextStyle id = 'twitter'>Ujsilvia</ProfileTextStyle>
+        <ProfileTextStyle id ='twitter'>Ujsilvia</ProfileTextStyle>
     </ProfileStyle>
     <SlackStyle id='slack'>@Uj_silvia</SlackStyle>
 
