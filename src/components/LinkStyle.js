@@ -27,6 +27,7 @@ export const LinkStyle = styled.p`
 `
 
 export const PointerStyle = styled.div`
+margin-top: 4rem;
 P:hover {
     background: #d0d5dd;
     color: #101828;

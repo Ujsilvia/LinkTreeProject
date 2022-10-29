@@ -34,6 +34,41 @@ export const ProfileTextStyle = styled.div`
 `
 
 export const SlackStyle = styled.p`
-display: inline;
+display: none;
+`
 
+export const ButtonStyle = styled.button`
+display: flex;
+align-items: center;
+justify-content: center;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: -1.2rem;
+        right: 15%;
+
+        /* Base/White */
+        background: transparent;
+        /* Gray/300 */
+        border: 2px dotted lightgrey;
+        border-radius: 100%;
+        cursor: pointer;
+        z-index: -2;
+        #mobile {
+            display: none; 
+
+        }
+
+        
+        @media only screen and (max-width: 600px) {
+        right: 1%;
+
+            #web{
+            display: none;
+            }
+            #mobile {
+            display: inline;
+
+            }
+  }
 `
