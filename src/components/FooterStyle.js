@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FooterStyle = styled.div`
-box-sizing: border-box;
+    box-sizing: border-box;
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -14,7 +14,9 @@ box-sizing: border-box;
     /* Gray/200 */
     border-top: 1px solid #EAECF0;
     @media only screen and (max-width: 600px){
-        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        
     }
 `
 export const FooterTextStyle = styled.div`

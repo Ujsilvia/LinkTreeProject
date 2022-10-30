@@ -14,6 +14,7 @@ export const LinkStyle = styled.p`
     background: #EAECF0;
     border: 1px solid #EAECF0;
     border-radius: 8px;
+    margin-bottom: 30px;
 
     font-style: normal;
     font-weight: 500;
@@ -24,6 +25,10 @@ export const LinkStyle = styled.p`
     align-items: center;
     text-align: center;
     color: #101828;
+
+    @media only screen and (max-width: 600px){
+        font-size: 14px;
+    }
 `
 
 export const PointerStyle = styled.div`
