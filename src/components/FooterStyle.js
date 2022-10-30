@@ -10,7 +10,7 @@ export const FooterStyle = styled.div`
     padding: 32px 0px 0px;
     gap: 32px;
     width: 100%;
-    height: 64px;
+    min-height: 64px;
     /* Gray/200 */
     border-top: 1px solid #EAECF0;
     @media only screen and (max-width: 600px){
@@ -31,5 +31,7 @@ export const FooterTextStyle = styled.div`
 `
 
 export const FooterWrapperStyle = styled.div`
-padding:50px 8%;
+/* padding:50px 8%; */
+width: 80%;
+margin: 0 auto;
 `

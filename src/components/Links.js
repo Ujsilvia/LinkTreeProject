@@ -1,5 +1,5 @@
 import React from 'react'
-import { LinkStyle, PointerStyle  } from './LinkStyle'
+import { PointerStyle  } from './LinkStyle'
 
 
 function Links() {
@@ -39,7 +39,7 @@ function Links() {
   return (
     <PointerStyle>
     {
-    links.map((val)=><a href={val.url}><LinkStyle>{val.name}</LinkStyle></a>
+    links.map((val)=><a href={val.url} id={val.id} className="btn__link">{val.name}</a>
       )
     }
     </PointerStyle>
