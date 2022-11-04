@@ -40,6 +40,13 @@ function Links() {
       id: "book__design",
       title:"Design Books"
     },
+
+    {
+        name: "Contact Me",
+        url: "/contact",
+        id: "contact",
+        title:"Design Books"
+      },
   ];
 
   return (
@@ -48,6 +55,7 @@ function Links() {
     links.map((val)=><a href={val.url} id={val.id} title={val.title} className="btn__link">{val.name}</a>
       )
     }
+    {/* <a href="https://twitter.com/Uj_silvia"  className="btn__link">Twitter Link</a> */}
     </PointerStyle>
   )
 }
