@@ -22,13 +22,16 @@ function App() {
                   <Links />
                   <Social />
                 </AppStyle>
-                <Footer />
+               
               </>
             }
           />
           <Route path="/contact" element={<ContactPage/>} />
+          
+         
         </Routes>
-      </Router>
+      </Router> 
+      <Footer />
     </Fragment>
   );
 }
