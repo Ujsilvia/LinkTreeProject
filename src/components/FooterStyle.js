@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const FooterStyle = styled.div`
+    margin-bottom: 5%;
     box-sizing: border-box;
     /* Auto layout */
     display: flex;
