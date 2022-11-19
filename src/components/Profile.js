@@ -11,7 +11,6 @@ function Profile() {
     <ProfileStyle>
         <ButtonStyle>
         <img src={mobile} alt="mobile" id='mobile' />
-        <img src={web} alt="web" id='web' />
         </ButtonStyle>
         <img src={uju} alt="myPics" id='profile__img' />
         <ProfileTextStyle id ='twitter'>Ujsilvia</ProfileTextStyle>
